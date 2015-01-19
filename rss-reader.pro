@@ -13,7 +13,7 @@ QML_IMPORT_PATH =
 # The .cpp file which was generated for your project. Feel free to hack it.
 SOURCES += src/main.cpp \
     src/core.cpp \
-    src\news_feed_provider_interface.cpp \
+    src/news_feed_provider_interface.cpp \
     src/rss_item.cpp \
     src/rss_channel.cpp \
     src/rss_news_feed_provider.cpp \
@@ -43,6 +43,7 @@ HEADERS += \
     src/rss_news_providers_test.h
 
 OTHER_FILES += \
+    qml/rss-reader/main.qml \
     qml/rss-reader/RssChannelViewDelegate.qml \
     qml/rss-reader/RssItemViewDelegate.qml \
     qml/rss-reader/ScrollIndicator.qml
